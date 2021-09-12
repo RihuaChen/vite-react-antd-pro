@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    // skip import react in files
+    "jsx": "react-jsx",
+    "outDir": "build/dist",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "types": ["vite-plugin-svgr/client"],
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": ["./src/*"],
+    }
+  },
+  "include": ["./src"]
+}
